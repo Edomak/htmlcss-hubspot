@@ -153,8 +153,28 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 81% auto;
-    padding: 20px;
     border-bottom: 2px solid #34475b;
+}
+
+.jumbo-content {
+    width: 50%;
+    padding-top: 50px;
+    color: #34475b;
+}
+
+.jumbo-content h1 {
+    font-size: 38px;
+    padding-bottom: 20px;
+
+}
+
+.jumbo-content p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.jumbo-content span {
+    font-size: 11px;
 }
 
 
