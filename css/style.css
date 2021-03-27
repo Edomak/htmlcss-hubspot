@@ -187,7 +187,7 @@ main {
     height: 1000px;
     background-color: #f5f8fa;
 }
-
+/* cube section */
 .main-top {
     text-align: center;
     padding-top: 30px;
@@ -208,11 +208,10 @@ main {
     font-size: 12px;
     color: #34475b;
 }
-
+/* CRM section */
 .main-middle {
     height: 300px;
-    border: 1px solid black;
-    margin-top: 30px;
+    box-shadow: 0 0 5px #34475b;
 }
 
 .img-section {
@@ -223,6 +222,8 @@ main {
 
 .content-section {
     width: 70%;
+    color: #34475b;
+    padding-top: 35px;
 }
 
 .main-middle img {
@@ -233,6 +234,38 @@ main {
 .img-section > a {
     padding: 10px 40px;
 }
+
+.content-section > h3 {
+    font-size: 25px;
+    color: #34475b;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.content-section > p {
+    font-size: 14px;
+    color: #34475b;
+    padding-bottom: 20px;
+}
+
+.content-section > h5 {
+    font-size: 15px;
+    color: #34475b;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.fas.fa-check-circle {
+    color: #ff7a5a;
+}
+
+.list-inline > li > .fas.fa-check-circle,
+a  {
+    padding-left: 0;
+}
+
+/* 3 col section */
+
 
 
 
