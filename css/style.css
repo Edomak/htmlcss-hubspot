@@ -184,7 +184,7 @@ body {
 /* Main */
 
 main {
-    height: 1000px;
+    height: 2000px;
     background-color: #f4f9fd;
 }
 /* cube section main top */
@@ -211,7 +211,7 @@ main {
 /* CRM section main middle */
 .main-middle {
     height: 300px;
-    box-shadow: 0 0 5px #34475b;
+    box-shadow: 0 0 6px lightgray;
 }
 
 .img-section {
@@ -268,7 +268,6 @@ a  {
 
 .main-bottom {
     margin-top: 50px;
-    box-shadow: 0 0 5px #34475b;
 }
 
 .bottom-left,
@@ -277,11 +276,11 @@ a  {
     width: 30%;
     padding: 20px 40px;
     text-align: center;
-    box-shadow: 0 0 5px #34475b;
+    box-shadow: 0 0 6px lightgray;
 }
 
 .main-bottom  .img-section-3col > img {
-    width: 60%;
+    width: 50%;
 }
 
 .main-bottom .content-3col > h3 {
@@ -315,11 +314,9 @@ a  {
 }
 
 .bottom-middle {
-    background-color:blue;
     margin: 0 5%;
 }
 .bottom-right {
-    background-color:yellow;
 }
 
 .btn-orange.learnmore {
