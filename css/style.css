@@ -274,13 +274,21 @@ a  {
 .bottom-middle,
 .bottom-right {
     width: 30%;
-    padding: 20px 40px;
+    padding: 20px 30px;
     text-align: center;
     box-shadow: 0 0 6px lightgray;
 }
 
-.main-bottom  .img-section-3col > img {
+.bottom-left  .img-section-3col > img {
     width: 50%;
+}
+
+.bottom-middle  .img-section-3col > img {
+    width: 62%;
+}
+
+.bottom-right  .img-section-3col > img {
+    width: 45%;
 }
 
 .main-bottom .content-3col > h3 {
@@ -294,6 +302,7 @@ a  {
     font-size: 14px;
     color: #34475b;
     padding: 20px 0;
+    line-height: 2;
 }
 
 .main-bottom .content-3col > h5 {
@@ -301,7 +310,7 @@ a  {
     color: #34475b;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
@@ -323,6 +332,12 @@ a  {
     padding: 10px 40px;
     margin-top: 20px;
 }
+
+.bottom-hr {
+    margin-top: 50px;
+}
+
+
 
 
 
