@@ -325,8 +325,6 @@ a  {
 .bottom-middle {
     margin: 0 5%;
 }
-.bottom-right {
-}
 
 .btn-orange.learnmore {
     padding: 10px 40px;
@@ -336,6 +334,55 @@ a  {
 .bottom-hr {
     margin-top: 50px;
 }
+
+hr#horizontal {
+    margin-left: 200px;
+    width: 60%;
+}
+
+
+/* Data Section */
+
+.data {
+    width: 100%;
+    height: 600px;
+    background-color: #00afb1;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+.top-data {
+    text-align: center;
+}
+
+.top-data > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.top-data > p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.data-boxes {
+    width: 100%;
+}
+
+.data-box {
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+
+
+
 
 
 
