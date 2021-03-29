@@ -28,7 +28,7 @@ body {
 }
 
 .container-lt {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -100,6 +100,11 @@ body {
     height: 100%;
     text-align: right;
     width: 50%;
+}
+
+.list-inline > li > a:hover {
+    color: #0ea6be;
+    text-decoration: underline;
 }
 
 /* Buttons */
@@ -184,7 +189,6 @@ body {
 /* Main */
 
 main {
-    height: 2000px;
     background-color: #f4f9fd;
 }
 /* cube section main top */
@@ -404,7 +408,6 @@ hr#horizontal {
 /* Customers Data */
 
 .customers {
-    height: 600px;
     padding-top: 50px;
 }
 
@@ -427,6 +430,7 @@ hr#horizontal {
     font-size: 14px;
     line-height: 2;
     color: #34475b;
+    padding-bottom: 50px;
 }
 
 .logos-list li {
@@ -437,13 +441,14 @@ hr#horizontal {
 }
 
 .logos-list img {
-    width: 120px;
+    width: 100px;
 }
 
 .call-to-action {
     width: 45%;
     padding-top: 50px;
     color: #34475b;
+    padding-bottom: 50px;
 }
 
 .call-to-action h2 {
@@ -465,6 +470,116 @@ hr#horizontal {
 .woman-picture img {
     width: 300px;
 }
+
+/* footer */
+
+footer {
+    height: 500px;
+    background-color: #2e3f4f;
+    padding: 30px 0;
+}
+
+.footer-col {
+    width: 25%;
+}
+
+
+.footer-col h4 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    padding: 5px 0;
+}
+
+.footer-list > li > a {
+    color: #cbd6e2;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#grey-button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 2;
+    background-color: #cbd6e2;
+    color: #34475b;
+}
+
+/* Languages section */
+
+.footer-languages {
+    text-align: center;
+}
+
+.footer-list > li > a > i {
+    padding: 0 8px;
+}
+
+.languages-list {
+    list-style: none;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.languages-list li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.languages-list > li > a {
+    color: #cbd6e2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Bottom-footer */
+
+.copyright {
+    width: 50%;
+}
+
+.privacy {
+    width: 50%;
+    text-align: right;
+}
+
+.copyright img {
+    width: 90px;
+    padding-top: 20px;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #cbd6e2;
+}
+
+.privacy-list {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.privacy-list li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.privacy-list > li > a {
+    color: #cbd6e2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 
 
 
