@@ -401,6 +401,45 @@ hr#horizontal {
     border-bottom: 1px solid white;
 }
 
+/* Customers Data */
+
+.customers {
+    height: 600px;
+    padding-top: 50px;
+}
+
+.number {
+    width: 40%;
+}
+
+.logos {
+    width: 60%;
+}
+
+.number > h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    color: #34475b;
+}
+
+.number > p {
+    font-size: 14px;
+    line-height: 2;
+    color: #34475b;
+}
+
+.logos-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 8px;
+    vertical-align: middle;
+}
+
+.logos-list img {
+    width: 120px;
+}
+
 
 
 
