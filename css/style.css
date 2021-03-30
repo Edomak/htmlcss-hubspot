@@ -116,6 +116,9 @@ body {
     border-radius: 5px;
     text-decoration: none;
     line-height: 2;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .btn-white {
@@ -123,6 +126,9 @@ body {
     font-weight: bold;
     border: 1px solid #ff7a5a;
     background-color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .btn-orange {
@@ -145,10 +151,39 @@ body {
 #button-top {
     margin-left: 10px;
 }
+/* hover-buttons */
+a.btn:hover {
+    background-color: white;
+    color:#0ea6be;
+    border: 2px solid #ff7a5a;
+}
+
+.btn-white:hover {
+    background-color: white;
+    color:#0ea6be;
+    border: 2px solid #ff7a5a;
+}
+
+#button-top:hover {
+    background-color: white;
+    color:#0ea6be;
+    border: 2px solid #ff7a5a;
+}
+
+#grey-button:hover {
+    color:#0ea6be;
+    border: 2px solid #0ea6be;
+}
+
+#search:hover {
+    color: #ff7a5a;
+    font-size: 15px;
+}
+
 
 /* jumbotron */
+
 .jumbotron {
-    position: relative;
     height: 500px;
     background-color: #fff3ee;
     background-image:url(../img/jumbotron.png);
@@ -176,7 +211,9 @@ body {
 }
 
 .jumbo-content span {
+    display: block;
     font-size: 11px;
+    padding-top: 30px;
 }
 
 #header-division {
@@ -191,7 +228,9 @@ body {
 main {
     background-color: #f4f9fd;
 }
-/* cube section main top */
+
+/* cube section/main-top */
+
 .main-top {
     text-align: center;
     padding-top: 30px;
@@ -209,10 +248,12 @@ main {
 }
 
 .main-top p {
-    font-size: 12px;
+    font-size: 14px;
     color: #34475b;
 }
-/* CRM section main middle */
+
+/* CRM section/main-middle */
+
 .main-middle {
     height: 300px;
     box-shadow: 0 0 6px lightgray;
@@ -268,7 +309,7 @@ a  {
     padding-left: 0;
 }
 
-/* 3 col section main bottom */
+/* 3 col section/main-bottom */
 
 .main-bottom {
     margin-top: 50px;
@@ -344,7 +385,6 @@ hr#horizontal {
     width: 60%;
 }
 
-
 /* Data Section */
 
 .data {
@@ -408,7 +448,7 @@ hr#horizontal {
 /* Customers Data */
 
 .customers {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .number {
@@ -430,7 +470,6 @@ hr#horizontal {
     font-size: 14px;
     line-height: 2;
     color: #34475b;
-    padding-bottom: 50px;
 }
 
 .logos-list li {
@@ -464,7 +503,9 @@ hr#horizontal {
 }
 
 .call-to-action span {
+    display: block;
     font-size: 11px;
+    padding-top: 30px;
 }
 
 .woman-picture img {
@@ -472,7 +513,7 @@ hr#horizontal {
 }
 
 /* footer */
-
+/* top-footer */
 footer {
     height: 500px;
     background-color: #2e3f4f;
@@ -482,7 +523,6 @@ footer {
 .footer-col {
     width: 25%;
 }
-
 
 .footer-col h4 {
     font-size: 14px;
@@ -505,6 +545,11 @@ footer {
     text-decoration: none;
 }
 
+.footer-list > li > a:hover {
+    color: #0ea6be;
+    text-decoration: underline;
+}
+
 #grey-button {
     font-size: 12px;
     padding: 5px 10px;
@@ -513,6 +558,9 @@ footer {
     line-height: 2;
     background-color: #cbd6e2;
     color: #34475b;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 /* Languages section */
@@ -541,6 +589,11 @@ footer {
     color: #cbd6e2;
     font-size: 14px;
     text-decoration: none;
+}
+
+.languages-list > li > a:hover {
+    color: #0ea6be;
+    text-decoration: underline;
 }
 
 /* Bottom-footer */
@@ -578,6 +631,11 @@ footer {
     color: #cbd6e2;
     font-size: 14px;
     text-decoration: none;
+}
+
+.privacy-list > li > a:hover {
+    color: #0ea6be;
+    text-decoration: underline;
 }
 
 
